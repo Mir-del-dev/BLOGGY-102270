@@ -1,0 +1,7 @@
+{
+    "*": {
+        "target": "http://102270.bloggy.ecole-it.devigne.space",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

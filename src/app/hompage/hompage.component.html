@@ -1,0 +1,43 @@
+<nav class="navbar bg-secondary ml-5 mt-5 mr-5">
+    <div class="container-fluid d-flex justify-content-center">
+      <p class="navbar-brand  h1 text-center">Bloggy</p>
+    </div>
+  </nav>
+  <div>
+    <h2 class="text-center mt-5">Our last Post</h2>
+  </div>
+  
+  
+<div class="row">
+<div *ngFor="let post of posts" class="col-6">
+    <div class="card m-1 bg-light " style="width: 650px;">
+        <div class="row  m-1">
+        <div class="col-md-4">
+            <img [src]="post.image_url" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+            <div  class="d-flex justify-content-between">
+            <span class="card-title h5">{{post.title}}</span>
+            <span class="h5">{{post.created_at|date:"dd/MM/YYYY"}}</span>
+            </div>
+            <p class="card-text">{{post.resume}}</p>
+            <figcaption class="blockquote-footer">
+             <cite title="Source Title">     
+                <div >
+                    <td  *ngFor="let author of Authors " ><span *ngIf ="author.id==post.author_id">{{author.full_name}}</span></td>
+                </div></cite>
+            </figcaption>
+            <p class="card-text"> <button class="btn btn-primary" (click)="ViewPostDetail(post.id)">read more...</button> </p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+  
+  
+  
+  
+  
+  
