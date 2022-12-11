@@ -1,27 +1,13 @@
 # Bloggy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+Ce projet est projet de blog.Il contient une page d'accueil qui liste les articles avec la possibile d'en savoir plus.
+Il contient également une page d'administration qui permet gerer(creer,modifier,supprimer) les articles de blog. 
+## Déploiement
+Après avoir cloner le dépot, il est nécessaire d'installer les package npm via la commande
+`npm install`
 
-## Development server
+Exécuter `ng serve` pour lancer l'application. rendez vous à  `http://localhost:4200/`. la page d'accueil de l'application se lancera automatiquement.
+## URL des pages
+`http://localhost:4200/Admin/get`:pour acceder à la page d'administration.
+`http://localhost:4200/`:pour acceder à la page d'accueil.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
