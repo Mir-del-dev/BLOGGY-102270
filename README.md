@@ -1,6 +1,6 @@
 # Bloggy
 
-Ce projet est projet de blog.Il contient une page d'accueil qui liste les articles avec la possibile d'en savoir plus.
+Ce projet est un  projet de blog. Il contient une page d'accueil qui liste les articles avec la possibile d'en savoir plus.
 Il contient également une page d'administration qui permet gerer(creer,modifier,supprimer) les articles de blog. 
 ## Déploiement
 Après avoir cloner le dépot, il est nécessaire d'installer les package npm via la commande
